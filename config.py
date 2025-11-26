@@ -5,15 +5,15 @@ DB_CONFIG = {
     "database": "game_center_bot",
 }
 
-token = "8204768526:AAFoUlfWEGAaGz5HT15qr9menwd54RKxwSE"
+token = ""
 
 
 class BotConfig:
     """کلاس مدیریت تنظیمات ربات"""
 
     def __init__(self):
-        self.BOT_TOKEN = "8204768526:AAFoUlfWEGAaGz5HT15qr9menwd54RKxwSE"
-        self.ADMIN_IDS = [895714097, 7480147617]  # آی‌دی ادمین‌ها
+        self.BOT_TOKEN = ""
+        self.ADMIN_IDS = []  # آی‌دی ادمین‌ها
         self.MAX_PRODUCTS_PER_PAGE = 8
         self.CART_MAX_ITEMS = 20
         self.SESSION_TIMEOUT = 3600  # 1 hour
